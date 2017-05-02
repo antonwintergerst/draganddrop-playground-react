@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import update from 'react/lib/update'
 
-// include a component that adopts the DragSource and DropTarget protcols
+// include a component that adopts the DragSource and DropTarget protocols
 import CatBreedCard from './CatBreedCard'
 
 // create some data for testing
@@ -80,5 +80,4 @@ class Container extends Component {
   }
 }
 
-// export the component with all adopted protocols
 export default Container
